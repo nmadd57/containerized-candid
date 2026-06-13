@@ -2,7 +2,7 @@ name: Build Candid Container
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - "candid/**"
       - ".github/workflows/build.yml"
